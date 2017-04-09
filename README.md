@@ -1,6 +1,6 @@
 FormModel
 =============
-2017-04-08
+2017-04-08 --> 2017-04-09
 
 
 
@@ -411,6 +411,10 @@ So, that's it, you can now inject values into your form model, or even validate 
 
 History Log
 ------------------
+    
+- 1.1.0 -- 2017-04-09
+
+    - add InputPasswordControl
     
 - 1.0.0 -- 2017-04-08
 
