@@ -5,6 +5,7 @@ namespace FormModel;
 
 
 use FormModel\Control\ControlInterface;
+use FormModel\Control\NotInjectableControlInterface;
 use FormModel\Group\GroupInterface;
 use FormModel\Validation\ControlsValidator\ControlsValidatorInterface;
 
@@ -60,6 +61,9 @@ class FormModel implements FormModelInterface
     public function inject(array $values)
     {
         foreach ($this->controls as $control) {
+            if ($control instanceof NotInjectableControlInterface) {
+                continue;
+            }
             $name = $control->getName();
             if (null !== $name) {
                 $value = self::getValueByName($values, $name);

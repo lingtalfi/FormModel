@@ -4,7 +4,7 @@
 namespace FormModel\Control;
 
 
-class InputSubmitControl extends InputControl
+class InputSubmitControl extends InputControl implements NotInjectableControlInterface
 {
     public function __construct()
     {
