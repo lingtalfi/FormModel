@@ -144,9 +144,16 @@ class FormModel implements FormModelInterface
         return $this;
     }
 
+    /**
+     * If key is null, then it's a standalone attribute which value is the value
+     */
     public function addFormAttribute($key, $value)
     {
-        $this->htmlFormAttributes[$key] = $value;
+        if (null !== $key) {
+            $this->htmlFormAttributes[$key] = $value;
+        } else {
+            $this->htmlFormAttributes[] = $value;
+        }
         return $this;
     }
 
