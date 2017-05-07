@@ -30,6 +30,7 @@ class FormModel implements FormModelInterface
      * @var ControlsValidatorInterface
      */
     private $validator;
+    private $submitButtonBar;
 
 
     public function __construct()
@@ -43,6 +44,12 @@ class FormModel implements FormModelInterface
         $this->displayFirstErrorOnly = true;
         $this->controls = [];
         $this->groups = [];
+        $this->submitButtonBar = [
+            "enable" => true,
+            "textSubmitButton" => "Submit",
+            "showResetButton" => true,
+            "textResetButton" => "Reset",
+        ];
         $this->order = null;
     }
 
@@ -111,6 +118,7 @@ class FormModel implements FormModelInterface
 //                'messages' => $this->messages,
                 'formErrorPosition' => $this->formErrorPosition,
                 'displayFirstErrorOnly' => $this->displayFirstErrorOnly,
+                'submitButtonBar' => $this->submitButtonBar,
             ],
             'order' => $this->order,
         ];
@@ -196,6 +204,11 @@ class FormModel implements FormModelInterface
         return $this;
     }
 
+    public function setSubmitButtonBar(array $submitButtonBar)
+    {
+        $this->submitButtonBar = $submitButtonBar;
+        return $this;
+    }
 
     //--------------------------------------------
     //
