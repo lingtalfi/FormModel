@@ -412,6 +412,10 @@ So, that's it, you can now inject values into your form model, or even validate 
 History Log
 ------------------
     
+- 1.5.0 -- 2017-05-09
+
+    - add HiddenInputControl
+    
 - 1.4.0 -- 2017-05-07
 
     - add FormModel.submitButtonBar
