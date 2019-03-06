@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Control;
+namespace Ling\FormModel\Control;
 
 
 class InputPasswordControl extends InputTextControl

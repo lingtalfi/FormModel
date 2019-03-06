@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Control;
+namespace Ling\FormModel\Control;
 
 
 class HiddenInputControl extends InputControl

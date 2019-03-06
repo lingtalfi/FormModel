@@ -1,10 +1,10 @@
 <?php
 
 
-namespace FormModel\Validation\ControlsValidator;
+namespace Ling\FormModel\Validation\ControlsValidator;
 
 
-use FormModel\Validation\ControlTest\ControlTestInterface;
+use Ling\FormModel\Validation\ControlTest\ControlTestInterface;
 
 class ControlsValidator implements ControlsValidatorInterface
 {

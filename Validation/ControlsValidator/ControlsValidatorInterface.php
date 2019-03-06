@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Validation\ControlsValidator;
+namespace Ling\FormModel\Validation\ControlsValidator;
 
 
 interface ControlsValidatorInterface

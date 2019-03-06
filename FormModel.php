@@ -1,13 +1,13 @@
 <?php
 
 
-namespace FormModel;
+namespace Ling\FormModel;
 
 
-use FormModel\Control\ControlInterface;
-use FormModel\Control\NotInjectableControlInterface;
-use FormModel\Group\GroupInterface;
-use FormModel\Validation\ControlsValidator\ControlsValidatorInterface;
+use Ling\FormModel\Control\ControlInterface;
+use Ling\FormModel\Control\NotInjectableControlInterface;
+use Ling\FormModel\Group\GroupInterface;
+use Ling\FormModel\Validation\ControlsValidator\ControlsValidatorInterface;
 
 class FormModel implements FormModelInterface
 {

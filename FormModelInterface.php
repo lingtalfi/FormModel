@@ -1,10 +1,10 @@
 <?php
 
 
-namespace FormModel;
+namespace Ling\FormModel;
 
 
-use FormModel\Group\GroupInterface;
+use Ling\FormModel\Group\GroupInterface;
 use Kamille\Architecture\Controller\ControllerInterface;
 
 /**

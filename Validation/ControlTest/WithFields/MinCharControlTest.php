@@ -1,9 +1,9 @@
 <?php
 
 
-namespace FormModel\Validation\ControlTest\WithFields;
+namespace Ling\FormModel\Validation\ControlTest\WithFields;
 
-use FormModel\Validation\ControlTest\ControlTest;
+use Ling\FormModel\Validation\ControlTest\ControlTest;
 
 class MinCharControlTest extends ControlTest
 {

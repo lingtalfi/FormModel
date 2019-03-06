@@ -15,7 +15,7 @@ Install
 ==========
 Using the [uni](https://github.com/lingtalfi/universe-naive-importer) command.
 ```bash
-uni import FormModel
+uni import Ling/FormModel
 ```
 
 Or just download it and place it where you want otherwise.
@@ -34,16 +34,16 @@ With the FormModel object, you can create a form like that:
 <?php
 
 
-use FormModel\Control\InputCheckBoxControl;
+use Ling\FormModel\Control\InputCheckBoxControl;
 
-use FormModel\Control\InputFileControl;
-use FormModel\Control\InputRadioControl;
-use FormModel\Control\InputSubmitControl;
-use FormModel\Control\InputTextControl;
-use FormModel\Control\SelectControl;
-use FormModel\Control\TextAreaControl;
-use FormModel\FormModel;
-use FormModel\Group\Group;
+use Ling\FormModel\Control\InputFileControl;
+use Ling\FormModel\Control\InputRadioControl;
+use Ling\FormModel\Control\InputSubmitControl;
+use Ling\FormModel\Control\InputTextControl;
+use Ling\FormModel\Control\SelectControl;
+use Ling\FormModel\Control\TextAreaControl;
+use Ling\FormModel\FormModel;
+use Ling\FormModel\Group\Group;
 
 
 $formConf = FormModel::create()

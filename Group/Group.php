@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Group;
+namespace Ling\FormModel\Group;
 
 
 class Group implements GroupInterface

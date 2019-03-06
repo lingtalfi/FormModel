@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Control;
+namespace Ling\FormModel\Control;
 
 /**
  * This kind of control is not affected by the FormModel.inject method.

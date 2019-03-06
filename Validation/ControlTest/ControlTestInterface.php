@@ -1,7 +1,7 @@
 <?php
 
 
-namespace FormModel\Validation\ControlTest;
+namespace Ling\FormModel\Validation\ControlTest;
 
 
 /**
